@@ -37,7 +37,7 @@ import { HttpClientModule } from '@angular/common/http';
     {
       provide: DYNAMIC_VALIDATORS,
       useValue: new Map<string, Validator | ValidatorFactory | ValidationErrors>([
-        ["myCustomValidator", myCustomValidator]
+        ['myCustomValidator', myCustomValidator]
       ])
     }
   ],

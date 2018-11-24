@@ -29,7 +29,7 @@ export default {
     },
     {
       "type": "CHECKBOX",
-      "id": "sampleCheckbox",
+      "id": "sampleCheckbox2",
       "label": "I do agree"
     }
   ]

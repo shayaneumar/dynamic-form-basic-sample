@@ -7,7 +7,7 @@ import {
     DYNAMIC_VALIDATORS,
     ValidatorFactory
 } from '@ng-dynamic-forms/core';
-import { DynamicFormsPrimeNGUIModule } from '@ng-dynamic-forms/ui-primeng';
+import { DynamicFormsKendoUIModule } from '@ng-dynamic-forms/ui-kendo';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
     ReactiveFormsModule,
@@ -22,6 +22,14 @@ import { myCustomValidator } from './validators/my-custom-validator';
 import { DynamicFormJsonComponent } from './dynamic-form-json/dynamic-form-json.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DynamicFormAllComponent } from './dynamic-form-all/dynamic-form-all.component';
+import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
+import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
+import { InputsModule } from '@progress/kendo-angular-inputs';
+import { UploadModule } from '@progress/kendo-angular-upload';
+
+
+
+
 
 @NgModule({
     declarations: [
@@ -37,9 +45,13 @@ import { DynamicFormAllComponent } from './dynamic-form-all/dynamic-form-all.com
         AppRoutingModule,
         ReactiveFormsModule,
         DynamicFormsCoreModule,
-        DynamicFormsPrimeNGUIModule,
+        DynamicFormsKendoUIModule,
         BrowserAnimationsModule,
-        HttpClientModule
+        HttpClientModule,
+        DropDownsModule,
+        DateInputsModule,
+        InputsModule,
+        UploadModule
     ],
     providers: [
         { provide: NG_VALIDATORS, useValue: myCustomValidator, multi: true },

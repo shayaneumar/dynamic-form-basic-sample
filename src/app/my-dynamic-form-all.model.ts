@@ -51,8 +51,8 @@ export const MY_FORM_MODEL: DynamicFormModel = [
     }),
     new DynamicInputModel({
         id: 'sampleFileUploadModel',
-        label: 'File upload',
-        inputType: 'file'
+        label: 'File upload'
+        // inputType: 'file'
     }),
     new DynamicInputModel({
         id: 'sampleInput',

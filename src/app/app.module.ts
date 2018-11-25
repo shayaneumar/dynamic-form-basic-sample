@@ -7,7 +7,8 @@ import {
     DYNAMIC_VALIDATORS,
     ValidatorFactory
 } from '@ng-dynamic-forms/core';
-import { DynamicFormsPrimeNGUIModule } from '@ng-dynamic-forms/ui-primeng';
+// import { DynamicFormsPrimeNGUIModule } from '@ng-dynamic-forms/ui-primeng';
+import { DynamicFormsMaterialUIModule } from '@ng-dynamic-forms/ui-material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
     ReactiveFormsModule,
@@ -37,7 +38,8 @@ import { DynamicFormAllComponent } from './dynamic-form-all/dynamic-form-all.com
         AppRoutingModule,
         ReactiveFormsModule,
         DynamicFormsCoreModule,
-        DynamicFormsPrimeNGUIModule,
+        // DynamicFormsPrimeNGUIModule,
+        DynamicFormsMaterialUIModule,
         BrowserAnimationsModule,
         HttpClientModule
     ],

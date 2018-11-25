@@ -36,9 +36,10 @@ export const MY_FORM_MODEL: DynamicFormModel = [
             })
         ]
     }),
-    new DynamicColorPickerModel({
+    new DynamicInputModel({
         id: 'sampleColorPickerModel',
-        label: 'Color picker'
+        label: 'Color picker',
+        inputType: 'color'
     }),
     new DynamicDatePickerModel({
         id: 'sampleDatePickerModel',

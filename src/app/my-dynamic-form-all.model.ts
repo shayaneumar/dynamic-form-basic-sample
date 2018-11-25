@@ -36,13 +36,15 @@ export const MY_FORM_MODEL: DynamicFormModel = [
             })
         ]
     }),
-    new DynamicColorPickerModel({
+    new DynamicInputModel({
         id: 'sampleColorPickerModel',
-        label: 'Color picker'
+        label: 'Color picker',
+        inputType: 'color'
     }),
-    new DynamicDatePickerModel({
+    new DynamicInputModel({
         id: 'sampleDatePickerModel',
-        label: 'Date picker'
+        label: 'Date picker',
+        inputType: 'date'
     }),
     new DynamicEditorModel({
         id: 'sampleEditorModel',
@@ -117,8 +119,9 @@ export const MY_FORM_MODEL: DynamicFormModel = [
         maxLength: 42,
         placeholder: 'Sample TextArea'
     }),
-    new DynamicTimePickerModel({
+    new DynamicInputModel({
         id: 'sampleTimePicker',
-        label: 'TimePicker'
+        label: 'TimePicker',
+        inputType: 'time'
     })
 ];

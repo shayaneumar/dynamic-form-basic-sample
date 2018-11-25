@@ -21,6 +21,7 @@ import { DynamicForm3Component } from './dynamic-form3/dynamic-form3.component';
 import { myCustomValidator } from './validators/my-custom-validator';
 import { DynamicFormJsonComponent } from './dynamic-form-json/dynamic-form-json.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DynamicFormAllComponent } from './dynamic-form-all/dynamic-form-all.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http';
         DynamicFormComponent,
         DynamicForm2Component,
         DynamicForm3Component,
-        DynamicFormJsonComponent
+        DynamicFormJsonComponent,
+        DynamicFormAllComponent
     ],
     imports: [
         BrowserModule,
